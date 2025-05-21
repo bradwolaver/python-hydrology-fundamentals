@@ -4,7 +4,7 @@ This repository contains materials for a 6-session short course designed to intr
 
 ## Course Goal
 
-The primary goal of this short course is to introduce the Hydrology Bureau to Python fundamentals for water data analysis. Through 6 practical sessions, participants will learn essential skills for working with hydrologic data—from importing and manipulating datasets to creating visualizations and conducting analyses.
+The primary goal of this short course is to introduce water resource professionals to Python fundamentals for water data analysis. Through 6 practical sessions, participants will learn essential skills for working with hydrologic data—from importing and manipulating datasets to creating visualizations and conducting analyses.
 
 ## Online Course Materials
 
