@@ -1,0 +1,16 @@
+name: python_hydro
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pandas          # Data handling
+  - numpy           # Data handling
+  - matplotlib      # Plotting
+  - seaborn         # Plotting
+  - statsmodels     # Statistics (least squares regression, etc.)
+  - scipy           # Statistics (kendalltau, mannwhitneyu, rankdata, etc.)
+  - hydrofunctions  # Download USGS data
+  - pip             # Explicitly add pip as a dependency (pip is a conda dependency so need to list it) 
+  - pip:
+      - matplotlib-inline  # %matplotlib inline --> displays plots inline in Jupyter Notebook 

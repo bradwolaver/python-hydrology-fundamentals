@@ -1,0 +1,27 @@
+name: python_hydro
+channels:
+  - conda-forge  # Moved conda-forge to the top of the channels list to prioritize it over defaults, which can help avoid conflicts.
+  - defaults
+dependencies:
+  - python=3.12.7   # Latest Python 3.12 version
+  - jupyter         # Added jupyter as a main dependency to ensure the core Jupyter package is installed.
+  - jupyterlab      # Kept jupyterlab for the JupyterLab interface.
+  - notebook        # Ensures all notebook functionalities
+  - ipykernel       # Added ipykernel under dependencies to ensure proper kernel support for Jupyter.
+  - ipywidgets      # Added ipywidgets and widgetsnbextension to support interactive widgets in Jupyter notebooks.
+  - widgetsnbextension
+  - jupyter_client  # Included jupyter_client, jupyter_core, and jupyter_server to ensure all necessary Jupyter components are present.
+  - jupyter_core
+  - jupyter_server
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - statsmodels
+  - scipy
+  - nodejs          # Added nodejs as a conda dependency. This will install Node.js in your environment.
+  - ydata-profiling # Added ydata-profiling as a conda dependency. This will install ydata-profiling (formerly known as pandas-profiling) in your environment.
+  - pip
+  - pip:
+    - hydrofunctions
+    - matplotlib-inline
